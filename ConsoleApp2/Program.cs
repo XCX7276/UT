@@ -10,22 +10,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int[] mass = { 4, 0, 3, 19, 492, -10, 1 }; 
-            Console.WriteLine(MinSum(mass));
-            Console.WriteLine();
-
-
-            int[] nums = new int[4];
-            Console.WriteLine("hash "+ nums.GetHashCode());
-            foreach (var item in nums)
-            { 
-                Console.Write(item + " " + item.GetType() + " " + item.GetTypeCode() + " " +item.GetHashCode() +" "   );
-            }
-            Console.WriteLine();
-
-
-            Console.WriteLine();
-            Console.ReadLine();
+         
         } 
         static public int? MinSum(int[] array)
         {
